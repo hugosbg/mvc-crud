@@ -1,6 +1,9 @@
 # mvc-crud
 
 Exemplo de padrão de projeto em MVC.
+<div align="center">
+    <img src="https://preview.ibb.co/cLCBFk/mvc_crud.png" alt="mvc_crud" border="0">
+</div>
 
 ## Como usar:
 
