@@ -7,7 +7,7 @@ class Router
 
     public function __construct($provider)
     {
-        $this->provider = $provider();
+        $this->provider = $provider;
     }
 
     public function add($name, $callback)

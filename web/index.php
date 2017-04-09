@@ -7,7 +7,7 @@ $provider = function () {
     return $config;
 };
 
-$app = new Router($provider);
+$app = new Router($provider());
 $app->add('/', 'Controller\ControllerProduto::listar');
 $app->add('/editar/(\d+)', 'Controller\ControllerProduto::editar');
 $app->add('/salvar', 'Controller\ControllerProduto::salvar');

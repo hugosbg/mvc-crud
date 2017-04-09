@@ -2,11 +2,11 @@
 
 return array(
     'database' => array(
-        'drive' => 'pgsql',
+        'drive' => 'mysql',
         'host' => '127.0.0.1',
-        'port' => '5432',
-        'name' => 'test',
-        'user' => 'test',
+        'port' => '3306',
+        'name' => 'crud',
+        'user' => 'root',
         'pass' => '',
     )
 );

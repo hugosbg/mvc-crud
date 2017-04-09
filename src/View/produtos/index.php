@@ -22,8 +22,12 @@
                     <td><?php echo $produto->valor ?></td>
                     <td><?php echo $produto->categoria ?></td>
                     <td>
-                        <a href="/editar/<?php echo $produto->id ?>" class="btn btn-info">Editar</a>
-                        <a href="/excluir/<?php echo $produto->id ?>" class="btn btn-danger">Excluir</a>
+                        <a href="/editar/<?php echo $produto->id ?>"
+                           class="btn btn-info">Editar</a>
+
+                        <a href="/excluir/<?php echo $produto->id ?>"
+                           class="btn btn-danger"
+                           onclick="mvc.confirm(event);">Excluir</a>
                     </td>
                 </tr>
                 <?php endforeach; ?>
