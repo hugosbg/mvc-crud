@@ -51,7 +51,8 @@ CREATE TABLE `produtos` (
   `descricao` varchar(45) NOT NULL,
   `valor` double(10,2) NOT NULL,
   `categoria` int(15) NOT NULL,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`),
+  KEY idx_categoria (`categoria`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
